@@ -62,9 +62,9 @@ CSSLint.addRule({
                         reportProperty("margin", display);
                         reportProperty("margin-top", display);
                         reportProperty("margin-bottom", display);
-						if(properties.display.hack === null){
-							reportProperty("float", display, "display:inline has no effect on floated elements.");
-						}
+                        if(properties.display.hack === null){
+                            reportProperty("float", display, "display:inline has no effect on floated elements.");
+                        }
                         break;
 
                     case "block":
